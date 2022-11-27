@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+}
+text{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+    display:grid;
+    flex:none
+}
+
+input[type=text] {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('resources/searchicon.png');
+    background-position: 0px 10px 15px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    width: 24%;
+    color: rgb(8, 0, 0);
+    border-radius: 6px;
+    align-items:baseline;
+    height: 3%;
+    transition: width 0.4s ease-in-out;
+    display:grid;
+    flex:none
+}
+
+input[type=text]:focus {
+    width: 45%;
+    border: 3px solid #555;
+}
+
+button[id="play"] {
+    margin-top: 10px;
+    background-image: url('resources/play.png');
+    background-position: 0px 10px 15px;
+    background-size: 100%;
+    background-color: rgba(85, 85, 85, 0);
+    background-repeat: no-repeat;
+    width: 100px;
+    border-color: transparent;
+    height: 100px;
+    border-width: 3px;
+    border-radius: 53%;
+    transition: width 0.4s ease-in-out;
+    transition: height 0.4s ease-in-out;
+    transition: border-radius 0.4s ease-in-out;        
+}
+button:active {
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+}
+button:hover {
+    border-color: black;
+}
+button[id="stopButton"]{
+    height: 30px;
+    width: 100px;
+    margin-top: 100px;
+}
