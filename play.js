@@ -94,7 +94,7 @@ client.on('ready', async client=> {
 
           });
 
-    }, 5000);
+    }, 4000);
 
 })
 

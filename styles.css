@@ -57,7 +57,22 @@ button:hover {
     border-color: black;
 }
 button[id="stopButton"]{
-    height: 30px;
+    height: 50px;
     width: 100px;
     margin-top: 100px;
+    border-radius: 8px;
+    background-color: rgba(160, 17, 17, 0.705);
 }
+button[id="stopButton"]:active{
+    height: 40px;
+    width: 80px;
+    margin-top: 110px;
+
+}
+text[id="song"]{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(28, 228, 9);
+    margin-top: 60px
+}
+
